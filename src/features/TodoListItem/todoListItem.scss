@@ -1,0 +1,44 @@
+@import '../styles/variables.scss';
+
+.todo-card {
+
+    // @include center;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 500px;
+    height: 75px;
+    background-color: #e3d5ca;
+    padding: 0 25px;
+
+    border-radius: 30px;
+    box-shadow: 3px 4px 7px #726b65;
+
+    margin: 15px 0;
+
+    &-title {
+        color: #44403d;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    color: #726b65;
+    border-radius: 20px;
+
+    &:hover {
+        background-color: #44403d;
+        color: #e3d5ca;
+    }
+}
+
+.done {
+    text-decoration: line-through;
+}

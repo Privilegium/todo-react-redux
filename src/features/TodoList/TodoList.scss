@@ -1,0 +1,16 @@
+@import '../styles/variables.scss';
+
+.container_todolist{
+    // @include center;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    flex-direction: column;
+    min-width: 100%;
+    min-height: 100vh;
+    padding-top: 35px;
+
+    background-color: #f9f7f4;
+}

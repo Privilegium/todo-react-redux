@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "id": "75b1e14c-6053-4be7-9ae7-eb0f2d740880",
+      "name": "Customize todo card",
+      "completeness": false
+    },
+    {
+      "id": "35b2498c-7df1-4909-9b30-7389f0c2c63b",
+      "name": "fsdsdf",
+      "completeness": false
+    }
+  ],
+  "filters": [
+    {
+      "id": 1,
+      "name": "high-priority"
+    },
+    {
+      "id": 2,
+      "name": "medium-priority"
+    },
+    {
+      "id": 3,
+      "name": "low-priority"
+    }
+  ]
+}

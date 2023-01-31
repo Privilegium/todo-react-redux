@@ -1,0 +1,39 @@
+
+
+.todo-input {
+    margin: 35px 0;
+    width: 500px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+    &-field {
+        width: 75%;
+        height: 30px;
+        border: 0px;
+        border-radius: 13px;
+        text-indent: 15px;
+        font-weight: bold;
+        box-shadow: 2px 3px 5px #726b65;
+        background-color: #f9f7f4;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &--btn {
+        border: 0px;
+        border-radius: 13px;
+        width: 100px;
+        background-color: #e3d5ca;
+        font-weight: bold;
+        box-shadow: 2px 3px 5px #726b65;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
